@@ -26,3 +26,9 @@
  .dropdown-menu{
     background-color:#00E8FC;
  }
+ 
+ h1{
+   padding-top: 30px;
+   padding-bottom: 30px;
+   text-decoration: underline;
+ }

@@ -1,18 +1,16 @@
 <div id="<%= dom_id job %>">
-  <p>
-    <strong>Name:</strong>
-    <%= job.name %>
-  </p>
-
-  <p>
-    <strong>Salary:</strong>
-    <%= job.salary %>
-  </p>
-
-  <p>
-    <strong>Description:</strong>
-    <%= job.description %>
-  </p>
-
+ <center>
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title"> <%= job.name %></h5>
+    <h6 class="card-text"><%= job.salary %></h6>
+   <p class="card-text"><%= job.description %></p>
+   <%= link_to "Show this job", job %>
+   
+   
+  </div>
 </div>
+</center>
+</div>
+
 
