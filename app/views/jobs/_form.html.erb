@@ -12,18 +12,18 @@
   <% end %>
 
   <div>
-    <%= form.label :name, style: "display: block" %>
-   <%= form.text_field :name %>
+    <%= form.label "Job title", style: "display: block" %>
+   <%= form.text_field :name, placeholder:"Gardener",:size => 50%>
   </div>
 
   <div>
     <%= form.label :salary, style: "display: block" %>
-    <%= form.text_field :salary %>
+    <%= form.text_field :salary, value:"£",:size => 50 %>
   </div>
 
   <div>
     <%= form.label :description, style: "display: block" %>
-    <%= form.text_field :description %>
+    <%= form.text_field :description, placeholder: "Gardening job in located in the heart of Sheffield.",:size => 50 %>
   </div>
 
   <div class="but">
